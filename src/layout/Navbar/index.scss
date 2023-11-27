@@ -1,0 +1,28 @@
+#nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  .navbar-items {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    .navbar-item {
+      position: relative;
+      top: 0;
+      bottom: 0;
+      padding: 22px 0;
+      cursor: pointer;
+      .active {
+        background-color: #1fa67a;
+        color: #fff;
+        padding: 22px;
+      }
+    }
+  }
+  h1 {
+    a {
+      color: #1fa67a;
+    }
+  }
+}
